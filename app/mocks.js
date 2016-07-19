@@ -5,21 +5,24 @@ exports.CARPARTS = [
         "name": "Super Tires",
         "description": "These tires are the very best",
         "inStock": 5,
-        "price": 4.99
+        "price": 4.99,
+        "image": "images/tire.jpg"
     },
     {
         "id": 2,
         "name": "Reinforced Shocks",
         "description": "Shocks made from kryptonite",
         "inStock": 4,
-        "price": 9.99
+        "price": 9.99,
+        "image": "images/shocks.png"
     },
     {
         "id": 3,
         "name": "Padded Seats",
         "description": "Super soft seats for a smooth ride",
         "inStock": 0,
-        "price": 2.99
+        "price": 2.99,
+        "image": "images/seat.jpeg"
     }
 ];
 //# sourceMappingURL=mocks.js.map

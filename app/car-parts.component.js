@@ -27,8 +27,7 @@ var CarPartsComponent = (function () {
     CarPartsComponent = __decorate([
         core_1.Component({
             selector: 'car-parts',
-            templateUrl: 'app/car-parts.component.html',
-            styleUrls: ['app/car-parts.component.css']
+            templateUrl: 'app/car-parts.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], CarPartsComponent);
