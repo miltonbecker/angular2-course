@@ -1,6 +1,7 @@
 <p class="card stock">There are {{totalCarParts()}} total parts in stock.</p>
 <ul>
-  <li class="card" *ngFor="let carPart of carParts">
+  <li class="card" *ngFor="let carPart of carParts"
+      [class.featured]="carPart.featured">
     <div class="panel-body">
       <div class="photo">
         <img [src]="carPart.image" />
@@ -19,6 +20,13 @@
           </td>
           <td>
             <p class="price">{{carPart.price | currency:'EUR':true}}</p>
+          </td>
+          <td>
+            <div class="select-quantity">
+              <button class="decrease" (click)="downQuantity(carPart)">-</button>
+              <input class="number" type="text" [(ngModel)]="carPart.quantity"  />
+              <button class="increase" (click)="upQuantity(carPart)">+</button>
+            </div>
           </td>
         </tr>
       </table>

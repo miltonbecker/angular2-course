@@ -7,7 +7,9 @@ export const CARPARTS: CarPart[] = [
     "description": "These tires are the very best",
     "inStock": 5,
     "price": 4.99,
-    "image": "images/tire.jpg"
+    "image": "images/tire.jpg",
+    "featured": false,
+    "quantity": 0
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@ export const CARPARTS: CarPart[] = [
     "description": "Shocks made from kryptonite",
     "inStock": 4,
     "price": 9.99,
-    "image": "images/shocks.png"
+    "image": "images/shocks.png",
+    "featured": true,
+    "quantity": 0
   },
   {
     "id": 3,
@@ -23,6 +27,8 @@ export const CARPARTS: CarPart[] = [
     "description": "Super soft seats for a smooth ride",
     "inStock": 0,
     "price": 2.99,
-    "image": "images/seat.jpeg"
+    "image": "images/seat.jpeg",
+    "featured": false,
+    "quantity": 0
   }
 ];

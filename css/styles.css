@@ -1,19 +1,12 @@
-/* Based on the CSS found at github.com/kristenmthayer/Angular2Codeschool */
-
-/* This would be bootstrap-custom.css */
-
-/* ----- Custom Theme ----- */
-
-html {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  height: 100%;
-}
+/*
+ * Based on the CSS found at github.com/kristenmthayer/Angular2Codeschool
+ * so far it looks like... shit
+ */
 
 body {
   background: -webkit-linear-gradient(#0d263c,#030714) no-repeat fixed;
   background: linear-gradient(#0d263c,#030714) no-repeat fixed;
   color: #66d9f7;
-  height: 100%;
   margin: 40px;
 }
 
@@ -22,63 +15,23 @@ img {
    width: 10em;
 }
 
-h2 {
-  font-weight: 400;
-  margin-top: 0;
-}
-
-h3 {
-  font-size: 20px;
-}
-
 header h1 {
   color: #66d9f7;
 }
 
-.container {
-  max-width: 900px;
-}
-
-button {
-  background: #fd79fc;
-  border-radius: 3px;
-  border: 0;
-  color: #ffffff;
-  width: 120px;
-}
-
-.new-image {
-  height: 160px;
-}
-
-.product-info {
-  padding-top: 30px;
-  width: 100%;
-}
-
-.stock {
-  padding: 20px;
-}
-
-table td + td {
-  text-align: right;
-}
-
-/*
- *
- *
- * HACKED from course inspecting, don't understand how these got inserted
- */
-
 h2 {
-   font-weight: 400;
-   color: #FFF;
-   font-size: 22px;
+  font-weight: 400;
+  color: #FFF;
+  font-size: 22px;
 }
 
 h3 {
   font-size: 20px;
   text-transform: uppercase;
+}
+
+button {
+  margin: 5px;
 }
 
 ul {
@@ -94,9 +47,70 @@ li:last-child {
   margin-bottom: 0;
 }
 
+.card {
+  background: #24262c;
+  font-size: 18px;
+}
+
 .container {
   max-width: 900px;
 }
+
+.date {
+  color: #9397d8;
+}
+
+.description {
+  font-weight: bold;
+  color: #9397d8;
+}
+
+.featured {
+  background: #57595D;
+  -webkit-border-image: -webkit-linear-gradient(right, #818fd8 0%,
+    #cbb4e2 50%, #a6f2f5 100%);
+  -o-border-image: linear-gradient(to left, #818fd8 0%, #cbb4e2 50%,
+    #a6f2f5 100%);
+  border-image: linear-gradient(to left, #818fd8 0%, #cbb4e2 50%, #a6f2f5 100%);
+  border-image-slice: 1;
+}
+
+.number {
+  width: 25px;
+  padding-left: 5px;
+}
+
+.panel-body {
+  display: table;
+  width: 100%;
+}
+
+.photo {
+  float: left;
+  margin-right: 30px;
+}
+
+.price {
+  text-align: right;
+}
+
+.product-info {
+  margin-top: 20px;
+  width: 80%;
+  vertical-align: middle;
+}
+
+.select-quantity {
+  margin: 10px;
+  color: GREEN;
+}
+
+.stock {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/* Below here: not used yet */
 
 .button {
   background: #fd79fc;
@@ -114,35 +128,8 @@ li:last-child {
   width: 120px;
 }
 
-.card {
-  background: #24262c;
-}
-
-.date {
-  color: #9397d8;
-}
-
-.description {
-  font-weight: bold;
-  color: #9397d8;
-}
-
-.panel-body {
-  width: 100%;
-  display: table;
-  padding: 0;
-}
-
-.photo {
-  float: left;
-  margin-right: 30px;
-}
-
-.price {
-  margin: 0;
-  font-size: 18px;
-  text-align: right;
-  width: 120px;
+.new-image {
+  height: 160px;
 }
 
 .price-total {

@@ -24,6 +24,14 @@ var CarPartsComponent = (function () {
         }
         return sum;
     };
+    CarPartsComponent.prototype.upQuantity = function (carPart) {
+        if (carPart.quantity < carPart.inStock)
+            carPart.quantity++;
+    };
+    CarPartsComponent.prototype.downQuantity = function (carPart) {
+        if (carPart.quantity != 0)
+            carPart.quantity--;
+    };
     CarPartsComponent = __decorate([
         core_1.Component({
             selector: 'car-parts',
